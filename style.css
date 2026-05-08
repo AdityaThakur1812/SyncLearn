@@ -1,0 +1,52 @@
+*{
+    margin :0px;
+    padding : opx;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display :flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container{
+    width :500px;
+    padding :20px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.input{
+    display:flex;
+    gap: 10px;
+}
+#task{
+    flex: 1;
+    font-size: 16px;
+    padding :10px;
+}
+.addtask{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.filter-sec{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.filter{
+    padding :8px 12px;
+    cursor: pointer;
+}
+#tasklist{
+    margin-top: 20px;
+    list-style: none;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}

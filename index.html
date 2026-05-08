@@ -8,11 +8,20 @@
 </head>
 <body>
     <div class="container">
-        <h1>StudySynco Todo Manager</h1>
+        <h1>StudySync Todo Manager</h1>
         <div class="input">
             <input type = 'text' id ='task' placeholder="Enter Your Task">
             <button class="addtask">Add Task</button>
         </div>
+        <div class="filter-sec">
+            <button class="filter" data-filter = "all">All</button>
+            <button class="filter" data-filter="completed">Completed</button>
+            <button class="filter" data-filter="pending">Pending</button>
+        </div>
+        <ul id="tasklist">
+
+        </ul>
     </div>
 </body>
+<script src = "app.js"></script>
 </html>
