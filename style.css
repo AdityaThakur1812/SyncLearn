@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: lightslategrey;
     display :flex;
     justify-content: center;
     padding-top: 50px;
