@@ -1,3 +1,4 @@
+let tasks = [] ;
 
 let input = document.querySelector("#task");
 let addtask = document.querySelector(".addtask");
