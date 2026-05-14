@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Study Sync</title>
     <link rel="stylesheet" href="Style/style.css" />
-    <link rel="stylesheet" href="Style/timer.css">
   </head>
   <body>
     <div class="container">
@@ -14,7 +13,7 @@
       </header>
       <main class="dashboard">
         <section class="todo-section">
-            <h2>To Do</h2>
+          <h2>To Do</h2>
           <div class="input">
             <input type="text" id="task" placeholder="Enter Your Task" />
             <button class="addtask">Add Task</button>
@@ -27,32 +26,50 @@
           <ul id="tasklist"></ul>
         </section>
 
-
         <section class="timer-section">
           <h2>Pomodoro Timer</h2>
           <div class="timer-container">
-            <h2 id="timerDisplay">
-                25 : 00 
-            </h2>
+            <h2 id="timerDisplay">25 : 00</h2>
             <div class="timer-input">
-                <input type ="number" id = 'minutesInput' placeholder="Minutes" min ='1'>
+              <input
+                type="number"
+                id="minutesInput"
+                placeholder="Minutes"
+                min="1"
+              />
             </div>
             <div class="timer-buttons">
-                <button id="startBtn">Start</button>
-                <button id="pauseBtn">Pause</button>
-                <button id="resetBtn">Reset</button>
+              <button id="startBtn">Start</button>
+              <button id="pauseBtn">Pause</button>
+              <button id="resetBtn">Reset</button>
             </div>
           </div>
         </section>
 
+        <section class="tracker-section">
+          <h2>Daily Study Tracker</h2>
+          <div class="tracker-container">
+            <input
+              type="number"
+              id="studyHoursInput"
+              placeholder="Enter Study Hours"
+              min="0"
+            />
+            <button id="addStudyHoursBtn">Add hours</button>
+            <div class="study-info">
+              <p>Total study hours : <span id="totalHours">0</span></p>
+            </div>
+
+            <div class="progress-bar-container">
+              <div id="progressBar"></div>
+            </div>
+            <p id="progressText">0%</p>
+          </div>
+        </section>
 
         <section class="Notes-section">
           <h2>Notes</h2>
           <p>Coming soon...</p>
-        </section>
-        <section class="stats-section">
-          <h2>Statistics</h2>
-          <p>Coming Soon...</p>
         </section>
       </main>
     </div>

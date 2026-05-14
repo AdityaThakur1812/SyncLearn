@@ -41,7 +41,6 @@ function startTimer(){
             clearInterval(timer);
             isRunning = false;
             alert("Session Completed")
-            resetTimer();
         }
     },1000)
 }
