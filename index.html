@@ -10,6 +10,7 @@
     <div class="container">
       <header>
         <h1>StudySync</h1>
+        <button id="themeToggleBtn">Dark Mode</button>
       </header>
       <main class="dashboard">
         <section class="todo-section">
@@ -67,9 +68,14 @@
           </div>
         </section>
 
-        <section class="Notes-section">
+        <section class="notes-section">
           <h2>Notes</h2>
-          <p>Coming soon...</p>
+          <div class="notes-input-section">
+            <textarea id="noteInput" placeholder="Write your note ..">
+            </textarea>
+            <button id="addNoteBtn">Add Note</button>
+          </div>
+          <div id="notesContainer"></div>
         </section>
       </main>
     </div>
